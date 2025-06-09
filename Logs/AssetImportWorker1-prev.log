@@ -1,0 +1,568 @@
+Unity Editor version:    2022.3.28f1 (6bae5ce6b222)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 15.0.1 (Build 24A348)
+Darwin version:          24.0.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Volumes/Lenovo PS6/work/unity/reset
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+58510
+Successfully changed project path to: /Volumes/Lenovo PS6/work/unity/reset
+/Volumes/Lenovo PS6/work/unity/reset
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8293888576] Host "[IP] 192.168.0.175 [Port] 0 [Flags] 2 [Guid] 2942339761 [EditorId] 2942339761 [Version] 1048832 [Id] OSXEditor(0,Mac) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8293888576] Host "[IP] 192.168.0.175 [Port] 0 [Flags] 2 [Guid] 2942339761 [EditorId] 2942339761 [Version] 1048832 [Id] OSXEditor(0,Mac) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.28f1 (6bae5ce6b222)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Volumes/Lenovo PS6/work/unity/reset/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M2 (high power)
+Metal devices available: 1
+0: Apple M2 (high power)
+Using device Apple M2 (high power)
+Initializing Metal device caps: Apple M2
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56182
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.28f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.28f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.28f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.003217 seconds.
+- Loaded All Assemblies, in  0.472 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 156 ms
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.949 seconds
+Domain Reload Profiling: 1421ms
+	BeginReloadAssembly (88ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (243ms)
+		LoadAssemblies (87ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (241ms)
+			TypeCache.Refresh (240ms)
+				TypeCache.ScanAssembly (215ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (949ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (861ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (644ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (147ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.314 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.643 seconds
+Domain Reload Profiling: 957ms
+	BeginReloadAssembly (163ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (60ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (41ms)
+		LoadAssemblies (77ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (36ms)
+			TypeCache.Refresh (34ms)
+				TypeCache.ScanAssembly (16ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (643ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (295ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (62ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (30ms)
+			ProcessInitializeOnLoadAttributes (175ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+database is locked
+database is locked
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 50 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3 unused Assets / (43.1 KB). Loaded Objects now: 529.
+Memory consumption went from 61.8 MB to 61.7 MB.
+Total: 3.519292 ms (FindLiveObjects: 0.033917 ms CreateObjectMapping: 0.005125 ms MarkObjects: 3.417667 ms  DeleteObjects: 0.062125 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 239326.129317 seconds.
+  path: Assets/assets/Materials/Misc/PolygonMilitary_Water_01.mat
+  artifactKey: Guid(15d43f2d04c621042baf24ef206f3a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Materials/Misc/PolygonMilitary_Water_01.mat using Guid(15d43f2d04c621042baf24ef206f3a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91dda7357c00cb6db79d4db355b16dbc') in 0.111658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/assets/Materials/Misc/PolygonMilitary_Mesh_01.mat
+  artifactKey: Guid(dbb2cae3e2cecad4f8325ac12fe03283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Materials/Misc/PolygonMilitary_Mesh_01.mat using Guid(dbb2cae3e2cecad4f8325ac12fe03283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8fcc2ef33daa183976f5aeb9699a190') in 0.008684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/assets/Materials/Vehicles/PolygonMilitary_Mat_Helicopters_01_C.mat
+  artifactKey: Guid(fc490004faacc94419226f7461ab2ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Materials/Vehicles/PolygonMilitary_Mat_Helicopters_01_C.mat using Guid(fc490004faacc94419226f7461ab2ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '082e4ac585cbbb83ed60b03271eb3c06') in 0.009560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/animation dour/New Material 1.mat
+  artifactKey: Guid(dc08d1424b148c5459af8671bea8c795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animation dour/New Material 1.mat using Guid(dc08d1424b148c5459af8671bea8c795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74182ed185ba6905ea59e3a5c727f26c') in 0.013314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/assets/Materials/WeaponTextures/PolygonMilitary_Weapon_Mat_06.mat
+  artifactKey: Guid(97b40eca161983040b04238ff477e49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Materials/WeaponTextures/PolygonMilitary_Weapon_Mat_06.mat using Guid(97b40eca161983040b04238ff477e49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd52ea1c6c8c954bb18a8cc01f4b134de') in 0.152590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/assets/Materials/Misc/PolygonMilitary_Rubble.mat
+  artifactKey: Guid(fca70d00ce7fa4c43952156435f451e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Materials/Misc/PolygonMilitary_Rubble.mat using Guid(fca70d00ce7fa4c43952156435f451e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5663f4ef540c2f54a5c3b9452a99da59') in 0.008140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Almgp_VHS_factory_2/models/materials/Sign.mat
+  artifactKey: Guid(7901cf857ff6760458e2d6a837d4f334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Almgp_VHS_factory_2/models/materials/Sign.mat using Guid(7901cf857ff6760458e2d6a837d4f334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a04f0fa9ab339679672237b6f8370cc') in 0.013408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/assets/Materials/Vehicles/PolygonMilitary_Mat_Air_Vehicles_Burnt.mat
+  artifactKey: Guid(9980bf5b609866a41b882aff8d03fa5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Materials/Vehicles/PolygonMilitary_Mat_Air_Vehicles_Burnt.mat using Guid(9980bf5b609866a41b882aff8d03fa5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc657f51e2e4cc8d7611d243a14ad4d6') in 0.007554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/assets/Materials/Vehicles/PolygonMilitary_Mat_Land_Vehicles_1.mat
+  artifactKey: Guid(e7b192f6b30e500438968ada07161b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Materials/Vehicles/PolygonMilitary_Mat_Land_Vehicles_1.mat using Guid(e7b192f6b30e500438968ada07161b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2dcc6e9ab10ce61f73e1a9226922d05') in 0.009364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Almgp_VHS_factory_2/models/meshes/Ladder.fbx
+  artifactKey: Guid(9156502580f08294692ce163d00f41b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Almgp_VHS_factory_2/models/meshes/Ladder.fbx using Guid(9156502580f08294692ce163d00f41b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5971287d0179b68db916a9b4e2e6950f') in 1.099803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/assets/Materials/Vehicles/PolygonMilitary_Mat_Helicopters_01_B.mat
+  artifactKey: Guid(0538a8a3b36f4ad46ae8a737a9bedb05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Materials/Vehicles/PolygonMilitary_Mat_Helicopters_01_B.mat using Guid(0538a8a3b36f4ad46ae8a737a9bedb05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68c9364305e57818738f0d01fd0e7c46') in 0.011177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/assets/Materials/Vehicles/PolygonMilitary_Mat_Land_Vehicles_9.mat
+  artifactKey: Guid(bbdc607d3a376be4281985030d54405a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Materials/Vehicles/PolygonMilitary_Mat_Land_Vehicles_9.mat using Guid(bbdc607d3a376be4281985030d54405a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'facf86e40be1fae348b29d63698dfa7f') in 0.010106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Almgp_VHS_factory_2/models/meshes/Box.fbx
+  artifactKey: Guid(0c6ab589247b4ee41b74aae9903437c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Almgp_VHS_factory_2/models/meshes/Box.fbx using Guid(0c6ab589247b4ee41b74aae9903437c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '693c9f1e1381cb2c4118f23da6b6df59') in 0.029839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Almgp_VHS_factory_2/models/meshes/Displays.fbx
+  artifactKey: Guid(aefcc9f7e88ac824e8eb5aeb2142f7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Almgp_VHS_factory_2/models/meshes/Displays.fbx using Guid(aefcc9f7e88ac824e8eb5aeb2142f7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '686af76190ddf286110f94c55787f3e6') in 0.375949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 210
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Almgp_VHS_factory_2/models/meshes/Cyber Neon Tube.fbx
+  artifactKey: Guid(df296c398c54cc54780a029256b8d8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Almgp_VHS_factory_2/models/meshes/Cyber Neon Tube.fbx using Guid(df296c398c54cc54780a029256b8d8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e44a2b93cf59b24112477b7ce26d3b') in 0.562645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Almgp_VHS_factory_2/models/materials/tube 1.mat
+  artifactKey: Guid(af8542e47aec92f4280e19e878f879c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Almgp_VHS_factory_2/models/materials/tube 1.mat using Guid(af8542e47aec92f4280e19e878f879c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fcfe459e35412ff9192e9126effb9c4') in 0.008649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Almgp_VHS_factory_2/models/materials/metall.mat
+  artifactKey: Guid(07ddb0e64d4eca248ae68f71334a1455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Almgp_VHS_factory_2/models/materials/metall.mat using Guid(07ddb0e64d4eca248ae68f71334a1455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7533acd05c43cbe262e66365577b115b') in 0.008297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/assets/Materials/Vehicles/PolygonMilitary_Mat_Air_Vehicles_01.mat
+  artifactKey: Guid(24763329e4943b349aae094fd516ee5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Materials/Vehicles/PolygonMilitary_Mat_Air_Vehicles_01.mat using Guid(24763329e4943b349aae094fd516ee5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c64e5e3ee36fc849f22e131dca428659') in 0.006000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/assets/Materials/Vehicles/PolygonMilitary_Mat_Land_Vehicles_4.mat
+  artifactKey: Guid(fa2b5dd8738e88b4ba7b75650eb44e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Materials/Vehicles/PolygonMilitary_Mat_Land_Vehicles_4.mat using Guid(fa2b5dd8738e88b4ba7b75650eb44e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd683283bfc4943603f40961423834d16') in 0.005725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Almgp_VHS_factory_2/models/meshes/Tube.fbx
+  artifactKey: Guid(94369c8c22acf61449558e1d00f9f446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Almgp_VHS_factory_2/models/meshes/Tube.fbx using Guid(94369c8c22acf61449558e1d00f9f446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '844414d5b87daac3c7776e7703597d9a') in 0.041542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Almgp_VHS_factory_2/models/materials/tube 2.mat
+  artifactKey: Guid(7ec8ddbb672ce92468aa674c7deffa68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Almgp_VHS_factory_2/models/materials/tube 2.mat using Guid(7ec8ddbb672ce92468aa674c7deffa68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4073acecfa9b484bc50f2cf0a1614b06') in 0.007889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/assets/Materials/Misc/PolygonMilitary_Decorative_Blocks.mat
+  artifactKey: Guid(ac231f0f4fba75c43b28202be9160692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Materials/Misc/PolygonMilitary_Decorative_Blocks.mat using Guid(ac231f0f4fba75c43b28202be9160692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '846a69e2b234649d3a0ae8c0b5a3207d') in 0.005585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/assets/Materials/Misc/PolygonMilitary_Mat_Clouds.mat
+  artifactKey: Guid(d105929ba13c9c04eaa33b25a492c323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Materials/Misc/PolygonMilitary_Mat_Clouds.mat using Guid(d105929ba13c9c04eaa33b25a492c323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfccf62d31d39726fd4e4da8cff2695a') in 0.245382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/assets/Prefabs/FX/Materials/FX_Circle_Dark.mat
+  artifactKey: Guid(e483fea7ffa80b54bae01bf333b06568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Prefabs/FX/Materials/FX_Circle_Dark.mat using Guid(e483fea7ffa80b54bae01bf333b06568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eab2c088798adeb95a6df5712fc62705') in 0.216069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Almgp_VHS_factory_2/models/meshes/Plate_mettal_wall_HQ.fbx
+  artifactKey: Guid(729c53238f093604f8a2ab4fbc08ad44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Almgp_VHS_factory_2/models/meshes/Plate_mettal_wall_HQ.fbx using Guid(729c53238f093604f8a2ab4fbc08ad44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cff22481858af3ff87926d913e25d21') in 0.021232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/assets/Materials/WeaponTextures/PolygonMilitary_Weapon_Mat_04.mat
+  artifactKey: Guid(aa8561ac12b1cf74fb4c43921891f3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Materials/WeaponTextures/PolygonMilitary_Weapon_Mat_04.mat using Guid(aa8561ac12b1cf74fb4c43921891f3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75891b0f69ad2b56b70ba63190487d38') in 0.005192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/assets/Models/Materials/PolygonMilitary_Texture_01_A.mat
+  artifactKey: Guid(27c5439a6d9131d43bb08aaaff8175d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Models/Materials/PolygonMilitary_Texture_01_A.mat using Guid(27c5439a6d9131d43bb08aaaff8175d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7135d5279537370bffd6839796750c16') in 0.005064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/assets/Materials/Misc/PolygonMilitary_Signs.mat
+  artifactKey: Guid(59266c69bb5e4a44b82461f5af99ddc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Materials/Misc/PolygonMilitary_Signs.mat using Guid(59266c69bb5e4a44b82461f5af99ddc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8652ae8a2adce545812c0a91f83baf61') in 0.005289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Materials/EnergyDrink-Can_v02-Mat.mat
+  artifactKey: Guid(33487e6f5fd734bac848c838ab4f1c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/EnergyDrink-Can_v02-Mat.mat using Guid(33487e6f5fd734bac848c838ab4f1c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a53469a1da633cc453fbd9a0cf85e8') in 0.012004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/assets/Models/Materials/PolygonOffice_Texture_01_A_New.mat
+  artifactKey: Guid(863c4a7451a7c3243acdbb6e1f7b06ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Models/Materials/PolygonOffice_Texture_01_A_New.mat using Guid(863c4a7451a7c3243acdbb6e1f7b06ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f20101aca6de1e27381d047a3e94b35d') in 0.005861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/assets/Materials/Misc/PolygonMilitary_Fence_Wire.mat
+  artifactKey: Guid(e188f16591b1b1544a024ba7f88dd8c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Materials/Misc/PolygonMilitary_Fence_Wire.mat using Guid(e188f16591b1b1544a024ba7f88dd8c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f5560f9a6477093b81d70d03f50e1c') in 0.006279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/assets/Materials/Vehicles/PolygonMilitary_Mat_Helicopters_01_A.mat
+  artifactKey: Guid(59d9d33adf4ba6e47b10b8b83a8741b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Materials/Vehicles/PolygonMilitary_Mat_Helicopters_01_A.mat using Guid(59d9d33adf4ba6e47b10b8b83a8741b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '436f905d4b3f6f549e2aaa57703b8f90') in 0.005203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Almgp_VHS_factory_2/models/meshes/CyberPipes.fbx
+  artifactKey: Guid(743afea711eb794428992c10410e5223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Almgp_VHS_factory_2/models/meshes/CyberPipes.fbx using Guid(743afea711eb794428992c10410e5223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e1be67c6f61aebb9e559558610140de') in 0.868106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/assets/Materials/WeaponTextures/PolygonMilitary_Weapon_Mat_Glass_02.mat
+  artifactKey: Guid(ebb99886419935b4bb276b9697594918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Materials/WeaponTextures/PolygonMilitary_Weapon_Mat_Glass_02.mat using Guid(ebb99886419935b4bb276b9697594918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c298595514cbe5a2e7ed0025f22ce4') in 0.006294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/assets/Materials/Vehicles/PolygonMilitary_Mat_Land_Vehicles_6.mat
+  artifactKey: Guid(306e71d578463084f87726d0edc574cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Materials/Vehicles/PolygonMilitary_Mat_Land_Vehicles_6.mat using Guid(306e71d578463084f87726d0edc574cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '559ccd3ca6db820a7044b04832920267') in 0.008165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/assets/Prefabs/FX/Materials/FX_Glow.mat
+  artifactKey: Guid(693b44b53fda8a746a395a681cc27418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Prefabs/FX/Materials/FX_Glow.mat using Guid(693b44b53fda8a746a395a681cc27418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '374f77ee2ca30d652bb5b3490c7bf904') in 0.099892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/assets/Materials/Vehicles/PolygonMilitary_Mat_Air_Large_01.mat
+  artifactKey: Guid(2072519f41d197b45be2535871372287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Materials/Vehicles/PolygonMilitary_Mat_Air_Large_01.mat using Guid(2072519f41d197b45be2535871372287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d51e61117008b8f0d34199d0c48d44f') in 0.008926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/assets/Models/SM_Bld_Shop_12.fbx
+  artifactKey: Guid(f8b1ac1e11e2dd94eb5d8e13b38bfb33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Models/SM_Bld_Shop_12.fbx using Guid(f8b1ac1e11e2dd94eb5d8e13b38bfb33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f6411d0353897c622286b31c61ec710') in 0.389020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Almgp_VHS_factory_2/models/materials/Displays.mat
+  artifactKey: Guid(33ef75af2957b7e46bda87f7a6d14702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Almgp_VHS_factory_2/models/materials/Displays.mat using Guid(33ef75af2957b7e46bda87f7a6d14702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c863d5ef1520bab5737fba9fa3dffad') in 0.159942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/assets/Materials/Misc/PolygonMilitary_Camo_Netting_Mat.mat
+  artifactKey: Guid(dc21154f7ac1cd54284bee6e5bfc229f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Materials/Misc/PolygonMilitary_Camo_Netting_Mat.mat using Guid(dc21154f7ac1cd54284bee6e5bfc229f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b6b7d404e3a166acdea9a07714f1e6') in 0.010416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Almgp_VHS_factory_2/models/meshes/Crate3.fbx
+  artifactKey: Guid(373dbcc4c4e2c94418f4b001f94e3c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Almgp_VHS_factory_2/models/meshes/Crate3.fbx using Guid(373dbcc4c4e2c94418f4b001f94e3c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '170ce229b6d978091fa4741265b8a339') in 0.019031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/assets/Materials/WeaponTextures/PolygonMilitary_Weapon_Mat_05.mat
+  artifactKey: Guid(4c488e6fe60e04543873853b20d251ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Materials/WeaponTextures/PolygonMilitary_Weapon_Mat_05.mat using Guid(4c488e6fe60e04543873853b20d251ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b8b157235c74986924e872c7cfffb5c') in 0.009031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/assets/Materials/Misc/PolygonMilitary_Mat_Glass.mat
+  artifactKey: Guid(48e0a98abf53d8949ba5733a2bb24f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Materials/Misc/PolygonMilitary_Mat_Glass.mat using Guid(48e0a98abf53d8949ba5733a2bb24f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb508d2d634c34d2f045d48708bf5cec') in 0.024434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/assets/Models/SM_Bld_Shop_13.fbx
+  artifactKey: Guid(2284a3e4a05652e4884fd55f6a7586d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/Models/SM_Bld_Shop_13.fbx using Guid(2284a3e4a05652e4884fd55f6a7586d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b00f1ff6e7f5663fbd9ee5555bfb3303') in 0.022709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 348.177945 seconds.
+  path: Assets/Almgp_VHS_factory_2/models/Textures/Atlass_metallic.tga
+  artifactKey: Guid(dd43e7bc47accd045b9ee99e62e43fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Almgp_VHS_factory_2/models/Textures/Atlass_metallic.tga using Guid(dd43e7bc47accd045b9ee99e62e43fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57ed2aeb646d8a1c15175bbbe1f689b1') in 0.299796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/Almgp_VHS_factory_2/models/Textures/Atlass_normal.tga
+  artifactKey: Guid(b26def32f4b45554e97e2b3d98999ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Almgp_VHS_factory_2/models/Textures/Atlass_normal.tga using Guid(b26def32f4b45554e97e2b3d98999ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8df1827602308ba932dbf705edff4b11') in 0.240622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
